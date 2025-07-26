@@ -11,7 +11,7 @@ This repository contains a Jupyter Notebook demonstrating the use of the **YOLOv
 
 ## 📁 Dataset
 
-The notebook utilizes a weed detection dataset with the following structure:
+The notebook utilizes a weed detection dataset, which should be placed in the `dataset/` directory at the project root, with the following structure:
 
 ```
 Weed Detection/
@@ -40,11 +40,18 @@ Each image has a corresponding YOLO-formatted label file. The dataset consists o
    - Sets dataset paths and class names
 
 3. **Model Definition**
-   - Loads the `PP-YOLOE` model from SuperGradients
+   - Loads the `YOLOv8 and YOLO-NAS` model from SuperGradients
    - Applies YOLO-specific loss and evaluation metrics (e.g., mAP@0.5, mAP@0.5:0.95)
 
 4. **Training Configuration**
-   - Defines training parameters like learning rate, batch size, image size, and number of epochs
+   - Defines the following training parameters:
+     - **Epochs**: 100
+     - **Batch size**: 16
+     - **Optimizer**: Adam with weight decay
+     - **Learning rate**: 5e-4 with cosine decay
+     - **Mixed precision training**: Enabled
+     - **EMA (Exponential Moving Average)**: Enabled
+
    - Trains the model using SuperGradients' `Trainer` module
 
 5. **Evaluation & Visualization**
@@ -76,6 +83,7 @@ Make sure to place the dataset in the expected directory structure before runnin
 ## 📌 Dependencies
 
 - Python ≥ 3.8
+- torch
 - numpy
 - pandas
 - matplotlib
@@ -95,7 +103,7 @@ Make sure to place the dataset in the expected directory structure before runnin
 
 ## 🧑‍💻 Author
 
-*This project notebook was created by **Samarth Kulkarni**. If you find this helpful, feel free to star 🌟 the repo and share feedback!*
+*This project notebook was created by [samrocks03](https://www.kaggle.com/samrocks03). If you find this helpful, feel free to star 🌟 the repo and share feedback!*
 
 ---
 
