@@ -89,13 +89,13 @@ Make sure to place the dataset in the expected directory structure before runnin
 .
 ├── weed-detection-using-yolo-v8.ipynb
 ├── README.md
-└── dataset/
+└── data-set.zip/
     └── Weed Detection/
 ```
 
 ## 🧑‍💻 Author
 
-*This project notebook was created by [Samarth Kulkarni]. If you find this helpful, feel free to star 🌟 the repo and share feedback!*
+*This project notebook was created by **Samarth Kulkarni**. If you find this helpful, feel free to star 🌟 the repo and share feedback!*
 
 ---
 
