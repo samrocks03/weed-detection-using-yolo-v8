@@ -95,7 +95,7 @@ Make sure to place the dataset in the expected directory structure before runnin
 
 ## 🧑‍💻 Author
 
-*This project notebook was created by [Your Name]. If you find this helpful, feel free to star 🌟 the repo and share feedback!*
+*This project notebook was created by [Samarth Kulkarni]. If you find this helpful, feel free to star 🌟 the repo and share feedback!*
 
 ---
 
@@ -103,7 +103,7 @@ Make sure to place the dataset in the expected directory structure before runnin
 
 This project is open-sourced under the MIT License.
 
-## 🔗 References
+## 🔗 Actual Implementation is on Kaggle:
 
 - 📓 Kaggle Notebook: [Weed Detection using YOLOv8](https://www.kaggle.com/code/samrocks03/weed-detection-using-yolo-v8)
 - 📂 Kaggle Dataset: [Weed Detection Dataset](https://www.kaggle.com/datasets/samrocks03/weed-detection/)
